@@ -1,5 +1,5 @@
             body {
-                font-family: "Inter", sans-serif;
+                font-family: "Inter", 'sans-serif';
                 font-size: 16px;
                 height: 100vh;
                 color: #8b8b8b;
@@ -64,6 +64,10 @@
             h5 {
                 font-size: 1rem;
                 text-transform: uppercase;
+            }
+            
+            h6 {
+                font-weight: bold;
             }
             
             .orange-text {
@@ -174,13 +178,17 @@
                 color: #ffffff;
                 font-weight: bold;
                 background-color: #e9a76d;
-                transition: 0.8s;
+                transition: 0.5s;
                 margin-top: 140px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
             
             .services-token:hover {
                 background-color: #0290fd;
                 cursor: pointer;
+                text-decoration: none;
             }
             
             .fa-chevron-right {
@@ -194,6 +202,10 @@
                 background-size: contain;
                 height: 150px;
                 margin-bottom: 30px;
+            }
+            
+            .token:hover>.services-token {
+                margin-top: 0px;
             }
             
             .process-token {
@@ -241,11 +253,31 @@
             .cta-row .nav-button {
                 margin-top: 0px;
             }
+            /* contact section */
+            
+            .contact-section {
+                border-top: 1px solid #ededed;
+            }
+            
+            .contact-form-section {
+                padding: 20px 0px;
+            }
+            
+            .contact-details-section p {
+                color: #30425c;
+                margin-bottom: 0px;
+            }
+            
+            .contact-details-segment {
+                border-bottom: 1px solid #ededed;
+                padding: 20px 20px;
+            }
             /* iframe styling*/
             
             iframe {
                 width: 320px;
                 height: 181px;
+                border: 1px solid #f9f9f9;
             }
             
             @media only screen and (min-width: 700px) {
@@ -255,6 +287,12 @@
                 }
             }
             /* Main Media queries */
+            
+            @media only screen and (max-width:1025px) {
+                .cta-row {
+                    display: none;
+                }
+            }
             
             @media only screen and (min-width: 1025px) {
                 .title-column {
@@ -306,6 +344,9 @@
                     font-size: 24px;
                     margin: 0px;
                 }
+                .contact-form-section {
+                    padding-right: 80px;
+                }
             }
             /* form styles  - c-classes are for the Cognito forms embed*/
             
@@ -313,7 +354,7 @@
             select,
             textarea {
                 padding: 10px;
-                font-family: Inter;
+                font-family: 'Inter', 'Sans-Serif';
                 background-color: #f9f9f9;
                 border: 1px solid #ededed;
                 font-size: 16px;
@@ -343,7 +384,7 @@
             }
             
             .form-footer {
-                background-color: #f9f9f9;
+                text-align: right;
             }
             
             .c-label {
@@ -371,4 +412,16 @@
             #c-submit-button {
                 background: linear-gradient(180deg, #c4c4c4 0%, #0290fd 0.01%, #265ed0 100%);
                 color: #ffffff;
+            }
+            /* contact form styles */
+            
+            .contact-form input,
+            textarea,
+            select {
+                width: 100%;
+            }
+            
+            .contact-form label {
+                margin-bottom: 2px;
+                margin-top: 10px;
             }
