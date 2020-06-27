@@ -1,0 +1,17 @@
+{
+  "name": "fund_my_heating",
+  "version": "1.0.0",
+  "description": "fund my heating website",
+  "main": "index.html",
+  "scripts": {
+    "start": "sergey",
+    "dev": "sergey --watch"
+  },
+  "author": "Jack Hannington",
+  "license": "ISC",
+  "dependencies": {
+    "sergey": "0.0.13"
+  },
+  "devDependencies": {},
+  "keywords": []
+}

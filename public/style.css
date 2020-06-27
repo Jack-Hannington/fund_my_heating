@@ -1,0 +1,374 @@
+            body {
+                font-family: "Inter", sans-serif;
+                font-size: 16px;
+                height: 100vh;
+                color: #8b8b8b;
+                height: 100vh;
+                padding-bottom: 1000px;
+            }
+            /* nav styles */
+            
+            .navbar {
+                background-color: #2b3f5f;
+                padding: 10px 20px;
+                border-bottom: 1px solid #445672;
+            }
+            
+            .navbar-nav {
+                padding: 0px 15px;
+            }
+            
+            a,
+            .nav-link,
+            .nav-item {
+                color: #fff;
+                font-weight: 400;
+                font-size: 16px;
+                transition: transform .2s;
+                /* Animation */
+            }
+            
+            .nav-link:hover {
+                color: #e9a76d!important;
+                /* Animation */
+            }
+            
+            .nav-button {
+                margin-top: 3px;
+                width: 100%;
+            }
+            /* document styles & utilities */
+            
+            p {
+                line-height: 26px;
+            }
+            
+            h2 {
+                font-weight: 600;
+                font-size: 1.2rem;
+            }
+            
+            h3,
+            h5 {
+                font-weight: bold;
+                color: #30425c;
+            }
+            
+            h4 {
+                color: #52b4ff;
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                font-weight: bold;
+            }
+            
+            h5 {
+                font-size: 1rem;
+                text-transform: uppercase;
+            }
+            
+            .orange-text {
+                color: #e9a76d;
+            }
+            
+            .bold-font {
+                font-weight: 600;
+            }
+            
+            button {
+                padding: 10px 30px;
+                background-color: #0c1b49;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                font-size: 16px;
+            }
+            
+            button:focus {
+                outline: 1px solid transparent;
+            }
+            
+            button:hover {
+                opacity: 0.8;
+            }
+            
+            .primary-button {
+                background: linear-gradient(180deg, #c4c4c4 0%, #0290fd 0.01%, #265ed0 100%);
+            }
+            
+            .outline-button,
+            .btn-secondary {
+                color: #1379e8;
+                background-color: #ffffff;
+                border: 1px solid #1379e8;
+            }
+            
+            .btn-secondary:hover {
+                background: linear-gradient(180deg, #c4c4c4 0%, #0290fd 0.01%, #265ed0 100%);
+                color: #fff;
+            }
+            /* rows used for all content except the header. Maybe change this to padding... */
+            
+            .content-row {
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }
+            
+            .border-red {
+                outline: 1px solid red;
+            }
+            /* content layout & styles */
+            
+            .hero-row {
+                background-color: #2b3f5f;
+                padding: 20px;
+                padding-top: 50px;
+            }
+            
+            .hero-row h1 {
+                color: #fff;
+                font-weight: bold;
+                font-size: 3rem;
+            }
+            
+            .hero-row p {
+                color: #fff;
+                font-weight: 300;
+                line-height: 30px;
+            }
+            
+            .title-column {
+                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593086075/Fund_my_heating/background_hero_1_qp7piq.png");
+                background-repeat: no-repeat;
+                background-position: top right;
+                background-size: 200px;
+                margin-bottom: 40px;
+            }
+            
+            .video-section,
+            .services-section,
+            .partners-section,
+            .cta-row {
+                text-align: center;
+            }
+            
+            .services-section {
+                background-color: #f8f8f8;
+            }
+            
+            .video-section h3,
+            .services-section h3,
+            .partners-section h3 {
+                margin-bottom: 20px;
+            }
+            
+            .video-section h4 {
+                margin-bottom: 10px;
+            }
+            /* services */
+            
+            .services-token {
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                border: 1px solid #ededed;
+                color: #ffffff;
+                font-weight: bold;
+                background-color: #e9a76d;
+                transition: 0.8s;
+                margin-top: 140px;
+            }
+            
+            .services-token:hover {
+                background-color: #0290fd;
+                cursor: pointer;
+            }
+            
+            .fa-chevron-right {
+                font-weight: bold;
+            }
+            
+            .token {
+                text-align: center;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 150px;
+                margin-bottom: 30px;
+            }
+            
+            .process-token {
+                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593245344/Fund_my_heating/how_it_works_token_1_vchgmj.png");
+            }
+            
+            .boiler-token {
+                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593245205/Fund_my_heating/boiler_service_token_djol7f.png");
+            }
+            
+            .insulation-token {
+                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593245205/Fund_my_heating/insultation_toke_iczbah.png");
+            }
+            
+            .controller-token {
+                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593245204/Fund_my_heating/smart_controls_token_nmn2ez.png");
+            }
+            /* Parnters */
+            
+            .partner-logo {
+                display: inline-block;
+                max-width: 150px;
+                margin-top: 10px;
+                padding: 0px 20px;
+            }
+            
+            #ideal-logo {
+                padding-top: 10px;
+                width: 150px;
+            }
+            /* cta row */
+            
+            .cta-row {
+                background-color: #2B3F5F;
+                padding: 40px 0px;
+            }
+            
+            .cta-row h3 {
+                font-size: 16px;
+                color: #fff;
+                display: inline-block;
+                text-transform: inherit;
+            }
+            
+            .cta-row .nav-button {
+                margin-top: 0px;
+            }
+            /* iframe styling*/
+            
+            iframe {
+                width: 320px;
+                height: 181px;
+            }
+            
+            @media only screen and (min-width: 700px) {
+                iframe {
+                    width: 640px;
+                    height: 361px;
+                }
+            }
+            /* Main Media queries */
+            
+            @media only screen and (min-width: 1025px) {
+                .title-column {
+                    padding-right: 50px;
+                    margin-bottom: 0px;
+                    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593085050/Fund_my_heating/background_hero_joihla.png");
+                    background-size: contain;
+                }
+                .hero-row {
+                    padding: 100px 150px 100px 150px;
+                }
+                .content-row {
+                    padding: 60px 150px;
+                }
+                .hero-row h1 {
+                    font-size: 4rem;
+                }
+                h2 {
+                    font-size: 1.8rem;
+                }
+                .navbar {
+                    height: 60px;
+                }
+                .navbar-nav {
+                    margin-right: 150px;
+                }
+                .navbar-brand {
+                    margin-left: 150px;
+                }
+                .nav-button {
+                    margin-left: 20px;
+                    width: 150px;
+                    padding: 4px;
+                }
+                iframe {
+                    width: 1080px;
+                    height: 618px;
+                }
+                .services-content {
+                    padding: 0px 20px;
+                }
+                .partner-logo {
+                    max-width: 200px;
+                }
+                #ideal-logo {
+                    padding-top: 20px;
+                }
+                .cta-row h3 {
+                    font-size: 24px;
+                    margin: 0px;
+                }
+            }
+            /* form styles  - c-classes are for the Cognito forms embed*/
+            
+            input,
+            select,
+            textarea {
+                padding: 10px;
+                font-family: Inter;
+                background-color: #f9f9f9;
+                border: 1px solid #ededed;
+                font-size: 16px;
+                font-weight: bold;
+                color: #8b8b8b;
+            }
+            
+            select:active {
+                outline: 1px solid #234c9f;
+            }
+            
+            select:focus,
+            textarea:focus,
+            input:focus,
+            radio:focus {
+                outline: 1px solid #265ed0;
+            }
+            
+            input[type="radio"] {
+                margin-right: 5px;
+            }
+            
+            form {
+                outline: none;
+                focus: none;
+                background-color: #fff;
+            }
+            
+            .form-footer {
+                background-color: #f9f9f9;
+            }
+            
+            .c-label {
+                font-size: 16px;
+            }
+            
+            .c-forms-form-title {
+                background: linear-gradient(180deg, #c4c4c4 0%, #0290fd 0.01%, #265ed0 100%);
+                padding: 30px !important;
+                color: #ffffff;
+            }
+            
+            .c-forms-description {
+                font-weight: 300;
+            }
+            
+            .c-forms-form:focus {
+                outline: none !important;
+            }
+            
+            .c-forms-pages {
+                padding: 10px;
+            }
+            
+            #c-submit-button {
+                background: linear-gradient(180deg, #c4c4c4 0%, #0290fd 0.01%, #265ed0 100%);
+                color: #ffffff;
+            }
