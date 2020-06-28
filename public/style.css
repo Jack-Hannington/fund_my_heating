@@ -1,5 +1,5 @@
             body {
-                font-family: "Inter", 'sans-serif';
+                font-family: 'Inter', sans-serif;
                 font-size: 16px;
                 height: 100vh;
                 color: #8b8b8b;
@@ -18,24 +18,24 @@
                 padding: 0px 15px;
             }
             
-            a,
-            .nav-link,
-            .nav-item {
-                color: #fff;
+            .nav-link {
+                color: #fff!important;
                 font-weight: 400;
                 font-size: 16px;
-                transition: transform .2s;
+                transition: transform .9s;
                 /* Animation */
             }
             
             .nav-link:hover {
-                color: #e9a76d!important;
+                color: #1379E8!important;
                 /* Animation */
             }
             
             .nav-button {
                 margin-top: 3px;
                 width: 100%;
+                text-align: center;
+                color: #fff;
             }
             /* document styles & utilities */
             
@@ -79,12 +79,15 @@
             }
             
             button {
-                padding: 10px 30px;
+                padding: 7px 14px;
                 background-color: #0c1b49;
                 color: white;
                 border: none;
-                border-radius: 4px;
+                border-radius: 0.25rem;
                 font-size: 16px;
+                border: none;
+                transition: transform .2s;
+                /* Animation */
             }
             
             button:focus {
@@ -92,18 +95,30 @@
             }
             
             button:hover {
-                opacity: 0.8;
+                transform: scale(1.04);
             }
             
             .primary-button {
-                background: linear-gradient(180deg, #c4c4c4 0%, #0290fd 0.01%, #265ed0 100%);
+                background-image: linear-gradient(180deg, #c4c4c4 0%, #0290fd 0.01%, #265ed0 100%);
+                width: 120px;
             }
             
-            .outline-button,
+            .primary-button:hover {
+                background-position: right center;
+            }
+            
             .btn-secondary {
                 color: #1379e8;
                 background-color: #ffffff;
-                border: 1px solid #1379e8;
+                border: 1px solid #ededed;
+                padding: 7px 14px;
+                width: 120px;
+            }
+            
+            .outline-button {
+                color: #1379E8;
+                background-color: #fff;
+                width: 120px;
             }
             
             .btn-secondary:hover {
@@ -124,8 +139,7 @@
             
             .hero-row {
                 background-color: #2b3f5f;
-                padding: 20px;
-                padding-top: 50px;
+                padding: 50px 20px 50px 20px;
             }
             
             .hero-row h1 {
@@ -170,6 +184,36 @@
             }
             /* services */
             
+            .token {
+                text-align: center;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 150px;
+                margin-bottom: 30px;
+                transition: transform 0.5s;
+            }
+            
+            .token:hover>.services-token {
+                margin-top: 0px;
+            }
+            
+            .process-token {
+                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593245344/Fund_my_heating/how_it_works_token_1_vchgmj.png");
+            }
+            
+            .boiler-token {
+                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593245205/Fund_my_heating/boiler_service_token_djol7f.png");
+            }
+            
+            .insulation-token {
+                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593245205/Fund_my_heating/insultation_toke_iczbah.png");
+            }
+            
+            .controller-token {
+                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593245204/Fund_my_heating/smart_controls_token_nmn2ez.png");
+            }
+            
             .services-token {
                 border-radius: 50%;
                 height: 50px;
@@ -193,35 +237,6 @@
             
             .fa-chevron-right {
                 font-weight: bold;
-            }
-            
-            .token {
-                text-align: center;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: contain;
-                height: 150px;
-                margin-bottom: 30px;
-            }
-            
-            .token:hover>.services-token {
-                margin-top: 0px;
-            }
-            
-            .process-token {
-                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593245344/Fund_my_heating/how_it_works_token_1_vchgmj.png");
-            }
-            
-            .boiler-token {
-                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593245205/Fund_my_heating/boiler_service_token_djol7f.png");
-            }
-            
-            .insulation-token {
-                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593245205/Fund_my_heating/insultation_toke_iczbah.png");
-            }
-            
-            .controller-token {
-                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593245204/Fund_my_heating/smart_controls_token_nmn2ez.png");
             }
             /* Parnters */
             
@@ -260,17 +275,19 @@
             }
             
             .contact-form-section {
-                padding: 20px 0px;
+                padding: 20px 20px;
             }
             
             .contact-details-section p {
-                color: #30425c;
                 margin-bottom: 0px;
             }
             
             .contact-details-segment {
                 border-bottom: 1px solid #ededed;
                 padding: 20px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
             /* iframe styling*/
             
@@ -322,10 +339,21 @@
                 .navbar-brand {
                     margin-left: 150px;
                 }
+                .nav-link {
+                    margin-left: 10px;
+                    font-size: 16px;
+                }
                 .nav-button {
                     margin-left: 20px;
                     width: 150px;
                     padding: 4px;
+                }
+                .top-bar {
+                    background-color: #fff;
+                    font-size: 14px;
+                    padding: 10px 0px;
+                    margin-left: 160px;
+                    margin-right: 160px;
                 }
                 iframe {
                     width: 1080px;
@@ -358,8 +386,9 @@
                 background-color: #f9f9f9;
                 border: 1px solid #ededed;
                 font-size: 16px;
-                font-weight: bold;
-                color: #8b8b8b;
+                /* font-weight: bold; */
+                color: #30425c;
+                /* color: #8b8b8b; */
             }
             
             select:active {
@@ -389,11 +418,12 @@
             
             .c-label {
                 font-size: 16px;
+                margin-bottom: 2px!important;
             }
             
             .c-forms-form-title {
                 background: linear-gradient(180deg, #c4c4c4 0%, #0290fd 0.01%, #265ed0 100%);
-                padding: 30px !important;
+                padding: 20px !important;
                 color: #ffffff;
             }
             
@@ -406,7 +436,11 @@
             }
             
             .c-forms-pages {
-                padding: 10px;
+                padding: 20px;
+            }
+            
+            .c-editor p {
+                color: #30425c;
             }
             
             #c-submit-button {
