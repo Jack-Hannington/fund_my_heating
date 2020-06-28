@@ -6,6 +6,10 @@
                 height: 100vh;
                 padding-bottom: 1000px;
             }
+            
+            .wrapper {
+                min-height: 100vh!important;
+            }
             /* nav styles */
             
             .navbar {
@@ -33,7 +37,6 @@
             .nav-link {
                 color: #fff!important;
                 font-weight: 300;
-                font-size: 14px;
                 transition: transform .9s;
                 /* Animation */
             }
@@ -148,6 +151,14 @@
             .content-row {
                 padding-top: 60px;
                 padding-bottom: 60px;
+            }
+            
+            .title-row {
+                color: #e9a76d;
+                text-align: center;
+                background-color: #2b3f5f;
+                text-transform: uppercase;
+                font-weight: bold;
             }
             
             .border-red {
@@ -414,6 +425,10 @@
                 padding: 40px 20px;
             }
             
+            .foot img {
+                margin-bottom: 20px;
+            }
+            
             .foot p {
                 margin-bottom: 2px;
                 color: #8b8b8b;
@@ -429,6 +444,8 @@
             footer h4 {
                 color: #ABBCDD;
                 text-transform: uppercase;
+                margin-bottom: 10px;
+                margin-top: 10px;
             }
             /* Main Media queries */
             
