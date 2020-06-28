@@ -20,8 +20,8 @@
             
             .nav-link {
                 color: #fff!important;
-                font-weight: 400;
-                font-size: 16px;
+                font-weight: 300;
+                font-size: 14px;
                 transition: transform .9s;
                 /* Animation */
             }
@@ -41,6 +41,10 @@
             
             p {
                 line-height: 26px;
+            }
+            
+            a {
+                color: inherit;
             }
             
             h2 {
@@ -87,6 +91,9 @@
                 font-size: 16px;
                 border: none;
                 transition: transform .2s;
+                width: 140px;
+                font-weight: 600;
+                transition: background-size 1s 0s;
                 /* Animation */
             }
             
@@ -96,15 +103,11 @@
             
             button:hover {
                 transform: scale(1.04);
+                background-size: 100% 100%;
             }
             
             .primary-button {
                 background-image: linear-gradient(180deg, #c4c4c4 0%, #0290fd 0.01%, #265ed0 100%);
-                width: 120px;
-            }
-            
-            .primary-button:hover {
-                background-position: right center;
             }
             
             .btn-secondary {
@@ -112,18 +115,21 @@
                 background-color: #ffffff;
                 border: 1px solid #ededed;
                 padding: 7px 14px;
-                width: 120px;
             }
             
             .outline-button {
                 color: #1379E8;
                 background-color: #fff;
-                width: 120px;
             }
             
             .btn-secondary:hover {
                 background: linear-gradient(180deg, #c4c4c4 0%, #0290fd 0.01%, #265ed0 100%);
                 color: #fff;
+            }
+            
+            .fab:hover {
+                color: #30425c;
+                cursor: pointer;
             }
             /* rows used for all content except the header. Maybe change this to padding... */
             
@@ -256,13 +262,16 @@
             .cta-row {
                 background-color: #2B3F5F;
                 padding: 40px 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
             
             .cta-row h3 {
-                font-size: 16px;
                 color: #fff;
                 display: inline-block;
                 text-transform: inherit;
+                margin-bottom: 15px;
             }
             
             .cta-row .nav-button {
@@ -306,7 +315,7 @@
             /* Main Media queries */
             
             @media only screen and (max-width:1025px) {
-                .cta-row {
+                .hide-small {
                     display: none;
                 }
             }
@@ -369,7 +378,6 @@
                     padding-top: 20px;
                 }
                 .cta-row h3 {
-                    font-size: 24px;
                     margin: 0px;
                 }
                 .contact-form-section {
