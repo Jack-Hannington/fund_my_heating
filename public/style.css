@@ -14,6 +14,18 @@
                 border-bottom: 1px solid #445672;
             }
             
+            .navbar-dark .navbar-toggler {
+                border: none;
+            }
+            
+            .navbar-dark .navbar-toggler-icon {
+                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593369009/Fund_my_heating/staggered_hamburger_dark_urupoi.svg");
+            }
+            
+            .navbar-toggler {
+                width: auto;
+            }
+            
             .navbar-nav {
                 padding: 0px 15px;
             }
@@ -287,6 +299,10 @@
                 padding: 20px 20px;
             }
             
+            .contact-details-section {
+                padding: 20px;
+            }
+            
             .contact-details-section p {
                 margin-bottom: 0px;
             }
@@ -304,85 +320,6 @@
                 width: 320px;
                 height: 181px;
                 border: 1px solid #f9f9f9;
-            }
-            
-            @media only screen and (min-width: 700px) {
-                iframe {
-                    width: 640px;
-                    height: 361px;
-                }
-            }
-            /* Main Media queries */
-            
-            @media only screen and (max-width:1025px) {
-                .hide-small {
-                    display: none;
-                }
-            }
-            
-            @media only screen and (min-width: 1025px) {
-                .title-column {
-                    padding-right: 50px;
-                    margin-bottom: 0px;
-                    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593085050/Fund_my_heating/background_hero_joihla.png");
-                    background-size: contain;
-                }
-                .hero-row {
-                    padding: 100px 150px 100px 150px;
-                }
-                .content-row {
-                    padding: 60px 150px;
-                }
-                .hero-row h1 {
-                    font-size: 4rem;
-                }
-                h2 {
-                    font-size: 1.8rem;
-                }
-                .navbar {
-                    height: 60px;
-                }
-                .navbar-nav {
-                    margin-right: 150px;
-                }
-                .navbar-brand {
-                    margin-left: 150px;
-                }
-                .nav-link {
-                    margin-left: 10px;
-                    font-size: 16px;
-                }
-                .nav-button {
-                    margin-left: 20px;
-                    width: 150px;
-                    padding: 4px;
-                }
-                .top-bar {
-                    background-color: #fff;
-                    font-size: 14px;
-                    padding: 10px 0px;
-                    margin-left: 160px;
-                    margin-right: 160px;
-                }
-                iframe {
-                    width: 1080px;
-                    height: 618px;
-                }
-                .services-content {
-                    padding: 0px 20px;
-                }
-                .partner-logo {
-                    max-width: 200px;
-                }
-                #ideal-logo {
-                    padding-top: 20px;
-                }
-                .cta-row h3 {
-                    margin: 0px;
-                }
-                .contact-form-section {
-                    padding-right: 80px;
-                }
             }
             /* form styles  - c-classes are for the Cognito forms embed*/
             
@@ -466,4 +403,112 @@
             .contact-form label {
                 margin-bottom: 2px;
                 margin-top: 10px;
+            }
+            /* footer */
+            
+            footer {
+                background-color: #141D2A;
+            }
+            
+            .foot {
+                padding: 40px 20px;
+            }
+            
+            .foot p {
+                margin-bottom: 2px;
+                color: #8b8b8b;
+            }
+            
+            footer .col-lg-3 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: start;
+            }
+            
+            footer h4 {
+                color: #ABBCDD;
+                text-transform: uppercase;
+            }
+            /* Main Media queries */
+            
+            @media only screen and (max-width:1025px) {
+                .hide-small {
+                    display: none!important;
+                }
+            }
+            
+            @media only screen and (min-width: 700px) {
+                iframe {
+                    width: 640px;
+                    height: 361px;
+                }
+            }
+            
+            @media only screen and (min-width: 1025px) {
+                .title-column {
+                    padding-right: 50px;
+                    margin-bottom: 0px;
+                    background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593085050/Fund_my_heating/background_hero_joihla.png");
+                    background-size: contain;
+                }
+                .hero-row {
+                    padding: 100px 150px 100px 150px;
+                }
+                .content-row {
+                    padding: 60px 150px;
+                }
+                .foot {
+                    padding: 40px 150px;
+                }
+                .hero-row h1 {
+                    font-size: 4rem;
+                }
+                h2 {
+                    font-size: 1.8rem;
+                }
+                .navbar {
+                    height: 60px;
+                }
+                .navbar-nav {
+                    margin-right: 150px;
+                }
+                .navbar-brand {
+                    margin-left: 150px;
+                }
+                .nav-link {
+                    margin-left: 10px;
+                    font-size: 16px;
+                }
+                .nav-button {
+                    margin-left: 20px;
+                    width: 150px;
+                    padding: 4px;
+                }
+                .top-bar {
+                    background-color: #fff;
+                    font-size: 14px;
+                    padding: 10px 0px;
+                    margin-left: 160px;
+                    margin-right: 160px;
+                }
+                iframe {
+                    width: 1080px;
+                    height: 618px;
+                }
+                .services-content {
+                    padding: 0px 20px;
+                }
+                .partner-logo {
+                    max-width: 200px;
+                }
+                #ideal-logo {
+                    padding-top: 20px;
+                }
+                .cta-row h3 {
+                    margin: 0px;
+                }
+                .contact-form-section {
+                    padding-right: 80px;
+                }
             }
