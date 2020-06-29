@@ -502,6 +502,7 @@
             
             .foot img {
                 margin-bottom: 20px;
+                width: 125px;
             }
             
             .foot p {
@@ -527,6 +528,10 @@
             @media only screen and (max-width:1025px) {
                 .hide-small {
                     display: none!important;
+                }
+                .accordion {
+                    padding-left: 10px;
+                    padding-right: 10px;
                 }
             }
             
