@@ -35,6 +35,10 @@
                 padding: 0px 15px;
             }
             
+            .navbar-brand {
+                margin-left: 20px;
+            }
+            
             .nav-link {
                 color: #fff!important;
                 font-weight: 300;
@@ -474,6 +478,7 @@
             textarea,
             select {
                 width: 100%;
+                background-color: #f9f9f9;
             }
             
             .contact-form {
