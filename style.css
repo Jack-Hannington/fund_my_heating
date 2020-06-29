@@ -2,7 +2,8 @@
                 font-family: 'Inter', sans-serif;
                 font-size: 16px;
                 height: 100vh;
-                color: #8b8b8b;
+                color: #404f66;
+                font-weight: 300;
                 height: 100vh;
                 padding-bottom: 1000px;
             }
@@ -130,16 +131,20 @@
                 background-color: #ffffff;
                 border: 1px solid #ededed;
                 padding: 7px 14px;
+                font-weight: bold;
+            }
+            
+            .btn-secondary:hover {
+                color: #1379e8;
+                background-color: #ffffff;
+                border: 1px solid #ededed;
+                padding: 7px 14px;
+                font-weight: bold;
             }
             
             .outline-button {
                 color: #1379E8;
                 background-color: #fff;
-            }
-            
-            .btn-secondary:hover {
-                background: linear-gradient(180deg, #c4c4c4 0%, #0290fd 0.01%, #265ed0 100%);
-                color: #fff;
             }
             
             .fab:hover {
@@ -154,7 +159,7 @@
             }
             
             .title-row {
-                color: #52b4ff;
+                color: #fff;
                 text-align: center;
                 background-color: #2b3f5f;
                 text-transform: uppercase;
@@ -304,7 +309,6 @@
             
             .contact-section {
                 border-top: 1px solid #ededed;
-                text-align: center;
             }
             
             .contact-form-section {
@@ -343,10 +347,6 @@
                 width: 30px;
             }
             
-            .eligibility-section {
-                text-align: center;
-            }
-            
             .eligibility-section P {
                 color: #404f66;
                 font-weight: 300;
@@ -357,6 +357,23 @@
                 font-size: 20px;
             }
             /* iframe styling*/
+            
+            .accordion-header {
+                background-color: #2B3F5F;
+                /* background: linear-gradient(180deg, #c4c4c4 0%, #0290fd 0.01%, #265ed0 100%); */
+                color: #fff;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            
+            .accordion-header h6 {
+                margin: 0px;
+            }
+            
+            .accordion-body {
+                border: 1px solid #ededed;
+                margin-bottom: 10px;
+            }
             
             iframe {
                 width: 320px;
@@ -389,8 +406,13 @@
                 outline: 1px solid #265ed0;
             }
             
-            input[type="radio"] {
-                margin-right: 5px;
+            label:hover {
+                cursor: pointer;
+            }
+            
+            input[type="radio"],
+            input[type="checkbox"] {
+                margin-right: 10px;
             }
             
             form {
@@ -400,16 +422,20 @@
             }
             
             .form-footer {
-                text-align: center;
+                text-align: right;
             }
             
-            .cognito {
-                outline: 1px solid #ededed;
+            .c-forms-form {
+                background-color: #f9f9f9;
             }
             
             .c-label {
                 font-size: 16px;
                 margin-bottom: 2px!important;
+            }
+            
+            .c-page-previous-page {
+                color: #445672;
             }
             
             .c-forms-form-title {
@@ -420,6 +446,10 @@
             
             .c-forms-description {
                 font-weight: 300;
+            }
+            
+            .c-section {
+                padding-bottom: 5px;
             }
             
             .c-forms-form:focus {
@@ -453,6 +483,12 @@
             .contact-form label {
                 margin-bottom: 2px;
                 margin-top: 10px;
+            }
+            
+            .c-editor input,
+            textarea,
+            select {
+                background-color: #fff;
             }
             /* footer */
             
@@ -599,6 +635,9 @@
                     padding: 60px 250px;
                 }
                 .process-row {
+                    padding: 40px 250px;
+                }
+                .foot {
                     padding: 40px 250px;
                 }
             }
