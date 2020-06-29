@@ -154,7 +154,7 @@
             }
             
             .title-row {
-                color: #e9a76d;
+                color: #52b4ff;
                 text-align: center;
                 background-color: #2b3f5f;
                 text-transform: uppercase;
@@ -218,7 +218,7 @@
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: contain;
-                height: 150px;
+                height: 120px;
                 margin-bottom: 30px;
                 transition: transform 0.5s;
             }
@@ -252,7 +252,7 @@
                 font-weight: bold;
                 background-color: #e9a76d;
                 transition: 0.5s;
-                margin-top: 140px;
+                margin-top: 120px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -325,6 +325,30 @@
                 align-items: center;
                 justify-content: center;
             }
+            
+            .process-row {
+                background-color: #30425c;
+                text-align: center;
+            }
+            
+            .process-row h3 {
+                color: #ffffff;
+                font-size: 14px;
+            }
+            
+            .process-row img {
+                width: 30px;
+            }
+            
+            .eligibility-section P {
+                color: #404f66;
+                font-weight: 300;
+            }
+            
+            .eligibility-section h5 {
+                font-weight: 700;
+                font-size: 20px;
+            }
             /* iframe styling*/
             
             iframe {
@@ -370,6 +394,10 @@
             
             .form-footer {
                 text-align: right;
+            }
+            
+            .cognito {
+                outline: 1px solid #ededed;
             }
             
             .c-label {
@@ -513,6 +541,12 @@
                     width: 1080px;
                     height: 618px;
                 }
+                .token {
+                    height: 150px;
+                }
+                .services-token {
+                    margin-top: 120px;
+                }
                 .services-content {
                     padding: 0px 20px;
                 }
@@ -527,5 +561,12 @@
                 }
                 .contact-form-section {
                     padding-right: 80px;
+                }
+                .process-row h3 {
+                    color: #ffffff;
+                    font-size: 20px;
+                }
+                .process-row img {
+                    width: 50px;
                 }
             }
