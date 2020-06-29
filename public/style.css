@@ -283,7 +283,7 @@
             /* cta row */
             
             .cta-row {
-                background-color: #2B3F5F;
+                background-color: #2b3f5f;
                 padding: 40px 0px;
                 display: flex;
                 align-items: center;
@@ -304,6 +304,7 @@
             
             .contact-section {
                 border-top: 1px solid #ededed;
+                text-align: center;
             }
             
             .contact-form-section {
@@ -327,17 +328,23 @@
             }
             
             .process-row {
-                background-color: #30425c;
+                background-color: #2b3f5f;
                 text-align: center;
+                padding-top: 30px;
+                padding-bottom: 30px;
             }
             
             .process-row h3 {
                 color: #ffffff;
-                font-size: 14px;
+                font-size: 12px;
             }
             
             .process-row img {
                 width: 30px;
+            }
+            
+            .eligibility-section {
+                text-align: center;
             }
             
             .eligibility-section P {
@@ -393,7 +400,7 @@
             }
             
             .form-footer {
-                text-align: right;
+                text-align: center;
             }
             
             .cognito {
@@ -437,6 +444,10 @@
             textarea,
             select {
                 width: 100%;
+            }
+            
+            .contact-form {
+                text-align: left;
             }
             
             .contact-form label {
@@ -503,6 +514,9 @@
                 .content-row {
                     padding: 60px 150px;
                 }
+                .process-row {
+                    padding: 40px 150px;
+                }
                 .foot {
                     padding: 40px 150px;
                 }
@@ -568,5 +582,23 @@
                 }
                 .process-row img {
                     width: 50px;
+                }
+            }
+            
+            @media only screen and (min-width:1500px) {
+                .hero-row {
+                    padding: 100px 250px 100px 250px;
+                }
+                .navbar-nav {
+                    margin-right: 250px;
+                }
+                .navbar-brand {
+                    margin-left: 250px;
+                }
+                .content-row {
+                    padding: 60px 250px;
+                }
+                .process-row {
+                    padding: 40px 250px;
                 }
             }
