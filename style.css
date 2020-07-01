@@ -308,6 +308,7 @@
                 display: inline-block;
                 text-transform: inherit;
                 margin-bottom: 15px;
+                font-weight: 300;
             }
             
             .cta-row .nav-button {
