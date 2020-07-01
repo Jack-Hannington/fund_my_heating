@@ -1,3 +1,7 @@
+            html {
+                scroll-behavior: smooth;
+            }
+            
             body {
                 font-family: 'Inter', sans-serif;
                 font-size: 16px;
@@ -249,7 +253,7 @@
             }
             
             .controller-token {
-                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593245204/Fund_my_heating/smart_controls_token_nmn2ez.png");
+                background-image: url("https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593601508/Fund_my_heating/smart_controls_token_lxxn3d.png");
             }
             
             .services-token {
@@ -338,7 +342,7 @@
             .process-row {
                 background-color: #2b3f5f;
                 text-align: center;
-                padding-top: 30px;
+                padding-top: 15px;
                 padding-bottom: 30px;
             }
             
@@ -351,12 +355,7 @@
                 width: 30px;
             }
             
-            .eligibility-section P {
-                color: #404f66;
-                font-weight: 300;
-            }
-            
-            .eligibility-section h5 {
+            .text-block h5 {
                 font-weight: 700;
                 font-size: 20px;
             }
@@ -502,7 +501,7 @@
             }
             
             .foot {
-                padding: 40px 20px;
+                padding: 40px 10px;
             }
             
             .foot img {
@@ -564,7 +563,7 @@
                     padding: 40px 150px;
                 }
                 .foot {
-                    padding: 40px 150px;
+                    padding: 40px 150px 40px 150px;
                 }
                 .hero-row h1 {
                     font-size: 4rem;
