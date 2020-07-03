@@ -15,7 +15,6 @@
     <script src="js\lazysizes.min.js" async=""></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/241137b6d5.js" crossorigin="anonymous"></script>
-    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="style.css">
     <title>Fund my heating</title>
@@ -224,26 +223,26 @@
                 <div class="row">
                     <div class="col-lg-6 col-12">
                         <label for="Firstname">First name</label>
-                        <input type="text" name="Firstname">
+                        <input id="Firstname" type="text" name="Firstname">
                     </div>
                     <div class="col-lg-6 col-12">
-                        <label for="Lirstname">Last name</label>
-                        <input type="text" name="Lastname">
+                        <label for="Lastname">Last name</label>
+                        <input id="Lastname" type="text" name="Lastname">
                     </div>
                     <div class="col-lg-6 col-12">
-                        <label for="Email">Email</label>
-                        <input type="email" name="Email">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email">
                     </div>
                     <div class="col-lg-6 col-12">
                         <label for="Number">Contact Number</label>
-                        <input type="number" name="Number">
+                        <input id="Number" type="number" name="Number">
                     </div>
                     <div class="col-12">
                         <label for="message">Message</label>
-                        <textarea name="message" style="background-color:#f9f9f9;"></textarea>
+                        <textarea id="message" name="message" style="background-color:#f9f9f9;"></textarea>
                     </div>
                     <div class="col-12 form-footer">
-                        <button class="mt-2 outline-button btn-secondary">Submit</button>
+                        <button type="submit" class="mt-2 outline-button btn-secondary">Submit</button>
                     </div>
                 </div>
             </form>
@@ -260,7 +259,7 @@
             </div> -->
             <div class="row contact-details-segment">
                 <div class="col-3">
-                    <img src="https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593421538/Fund_my_heating/email_icon_kqpjwa.svg" alt="email-icon">
+                    <img class="lazyload" data-src="https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593421538/Fund_my_heating/email_icon_kqpjwa.svg" alt="email-icon">
                 </div>
                 <div class="col-9">
                     <p style="color:#30425c;" class="bold-font">Email</p>
@@ -293,7 +292,7 @@
     <div class="container-fluid">
         <div class="row foot">
             <div class="col-lg-3 col-12">
-                <a href="#"><img src="https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593444374/Fund_my_heating/FUNDMYHEATINGLOGO_dxidyv.svg" alt="Fund my heating logo></a>
+                <a href="#"><img class="lazyload" data-src="https://res.cloudinary.com/dtt3pdk9l/image/upload/v1593444374/Fund_my_heating/FUNDMYHEATINGLOGO_dxidyv.svg" alt="Fund my heating logo"></a>
             </div>
             <div class="col-lg-3 col-12">
                 <h4>Services</h4>
